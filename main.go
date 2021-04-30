@@ -23,7 +23,7 @@ func intToString(num int) string {
 	if num >= 100000 {
 		engnum += hunthous + tenthous + thous + hun + ten + one
 	} else if num >= 10000 {
-		engnum += thous + hun + ten + one
+		engnum += tenthous + thous + hun + ten + one
 	} else if num >= 1000 {
 		engnum += thous + hun + ten + one
 	} else if num >= 100 {
